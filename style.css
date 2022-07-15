@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* img{
+    width: 100%;
+} */
+
+
+body{
+    background-color:  hsl(225, 100%, 94%);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 7px;
+    /* margin-top: 5rem; */
+    
+}
+.container{
+    width: 50%;
+    font-family: 'Red Hat Display', sans-serif;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    /* margin: 20px; */
+   /* height: 50%; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%,  0.15);
+    margin-top: 4rem;
+    padding-bottom: 20px;
+    
+    
+}
+.container img.hero {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    /* height: 100%; */
+}
+
+h2{
+    font-weight: 900;
+    margin-top: 30px;
+}
+.pricing article h4{
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    /* padding-right: 5px; */
+
+}
+.pricing article p{
+    padding: 5px 0 0 10px;
+    /* margin-bottom: 20px; */
+    font-size: 16px;
+    margin: 2px 0 5px 0;
+}
+p{
+    font-size: 16px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    line-height: 1.6;
+    padding: 15px 50px 25px 50px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+
+.pricing{
+    list-style-type: none;
+    margin: 0 20px 20px 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: hsl(225, 100%, 98%);
+    /* width: 90%; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pricing article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing article .img{
+    margin-top: 10px;
+}
+.change{
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 10px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+    /* flex-direction: column; */
+    /* display: flex; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* padding-right: 5px; */
+    cursor: pointer;
+}
+.btn:hover, .change:hover{
+    opacity: 0.8;
+}
+.button1{
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    margin-top: 7px;
+    padding-top: 5px;
+}
+.button1:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+
+@media(min-width: 500px){
+    .container{
+        width: 400px;
+        height: 600px;
+        
+    }
+}
